@@ -1,14 +1,6 @@
-/* 1° Checkpoint - Turma 01NT - Fernanda Brum Rubim
+// GRUPO 4 
 
-Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
-
-// 1. Pipoca – 10 segundos (padrão);
-// 2. Macarrão – 8 segundos (padrão);
-// 3. Carne – 15 segundos (padrão);
-// 4. Feijão – 12 segundos (padrão);
-// 5. Brigadeiro – 8 segundos (padrão); 
-
-// O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. */
+//Nomes: Mauro Lucio Marques, Veronica Rizzi, Bruno Batista, Ana Carolina Ribeiro, Fernanda Brum, Marcelo Nascimento
 
 
 function verificar(tempoPadrao, tempo) {
@@ -22,8 +14,8 @@ function verificar(tempoPadrao, tempo) {
     else if (tempo >= 2 * tempoPadrao) {
         console.log("A comida queimou")            // Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
     }
-    else {
-        console.log("Prato pronto, bom apetite")           // No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
+    {
+        console.log("Prato pronto!")           // No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
     }
 
 }
@@ -98,4 +90,3 @@ menu("Brigadeiro", 8)
 menu("Brigadeiro", 16)
 menu("Brigadeiro", 24)
 menu("Chocolate", 8)
-
