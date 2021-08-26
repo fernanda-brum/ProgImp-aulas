@@ -15,7 +15,7 @@ function verificar(tempoPadrao, tempo) {
         console.log("A comida queimou")            // Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
     }
     {
-        console.log("Prato pronto!")           // No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
+        console.log("Prato pronto!")           // No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto!"
     }
 
 }
