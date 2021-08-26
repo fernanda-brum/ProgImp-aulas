@@ -1,4 +1,4 @@
-/* 2° Checkpoint - Turma 04 - Fernanda Brum Rubim
+/* 1° Checkpoint - Turma 01NT - Fernanda Brum Rubim
 
 Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
 
